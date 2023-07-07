@@ -1,8 +1,6 @@
 /* NOTION CSS OVERRIDE */
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Serif+JP:wght@300;400;900&family=Noto+Serif+SC:wght@300;400;900&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 .notion {
     @apply text-gray-600 dark:text-gray-300;
