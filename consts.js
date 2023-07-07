@@ -1,4 +1,5 @@
 exports.FONTS_SANS = [
+  '"PingFang SC"',  
   '"IBM Plex Sans"',
   'ui-sans-serif',
   'system-ui',
@@ -12,7 +13,6 @@ exports.FONTS_SANS = [
   '"Nimbus Sans L"',
   'Arial',
   '"Liberation Sans"',
-  '"PingFang SC"',
   '"Hiragino Sans GB"',
   '"Noto Sans CJK SC"',
   '"Source Han Sans SC"',
@@ -26,7 +26,7 @@ exports.FONTS_SANS = [
   'sans-serif'
 ]
 exports.FONTS_SERIF = [
-  'lxgw'
+  'LXGWBrightGB'
   '"Source Serif"',
   'ui-serif',
   'Georgia',
