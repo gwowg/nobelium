@@ -26,7 +26,6 @@ exports.FONTS_SANS = [
   'sans-serif'
 ]
 exports.FONTS_SERIF = [
-  'LXGWBrightGB'
   '"Source Serif"',
   'ui-serif',
   'Georgia',
