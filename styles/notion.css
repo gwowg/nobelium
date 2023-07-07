@@ -5,7 +5,7 @@
 .notion {
     @apply text-gray-600 dark:text-gray-300;
     overflow-wrap: break-word;
-    font-family: 'Bree Serif', serif, 'Noto Serif SC', 'LXGWBright-Regular', 'PingFang SC', Microsoft YaHei, Arial, sans-serif;
+    font-family: 'Bree Serif', serif, 'Noto Serif SC', 'LXGW', 'PingFang SC', Microsoft YaHei, Arial, sans-serif;
 }
 .notion,
 .notion-text,
