@@ -1,11 +1,12 @@
 /* NOTION CSS OVERRIDE */
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css');
+
 
 .notion {
     @apply text-gray-600 dark:text-gray-300;
     overflow-wrap: break-word;
-    font-family: 'Bree Serif', serif, 'Noto Serif SC', 'LXGW', 'PingFang SC', Microsoft YaHei, Arial, sans-serif;
+    font-family: "LXGW WenKai Screen", sans-serif;
 }
 .notion,
 .notion-text,
