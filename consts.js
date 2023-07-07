@@ -1,4 +1,6 @@
 exports.FONTS_SANS = [
+  'lxgw'
+  'LXGWBrightGB-Regular'
   '"IBM Plex Sans"',
   'ui-sans-serif',
   'system-ui',
@@ -26,6 +28,9 @@ exports.FONTS_SANS = [
   'sans-serif'
 ]
 exports.FONTS_SERIF = [
+  '"Bree Serif"'
+  'lxgw'
+  'LXGWBrightGB-Regular'
   '"Source Serif"',
   'ui-serif',
   'Georgia',
