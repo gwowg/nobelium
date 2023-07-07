@@ -15,7 +15,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-						<a href= {BLOG.author} ©{' '}
+						<a href="https://gwoo.xyz/feed">RSS</a> | {BLOG.author} ©{' '}
 						{from === y || !from ? y : `${from} - ${y}`}
 					</p>{' '}
 					<a href="https://vercel.com?utm_source=Craigary&utm_campaign=oss">
