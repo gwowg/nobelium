@@ -3,8 +3,7 @@
 .notion {
     @apply text-gray-600 dark:text-gray-300;
     overflow-wrap: break-word;
-    font-family: LXGWBright-Regular, nyt-cheltenham, georgia, 'times new roman', times, serif, 'Noto Serif CJK SC', '宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi',
-        'KaiTi_GB2312', '楷体', 'Noto Serif SC';
+    font-family: LXGWBright-Regular, PingFang SC, Microsoft YaHei, Arial,sans-serif;
 }
 .notion,
 .notion-text,
