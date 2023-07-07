@@ -1,9 +1,11 @@
 /* NOTION CSS OVERRIDE */
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Serif+JP:wght@300;400;900&family=Noto+Serif+SC:wght@300;400;900&display=swap');
+
 .notion {
     @apply text-gray-600 dark:text-gray-300;
     overflow-wrap: break-word;
-    font-family: LXGWBright-Regular, PingFang SC, Microsoft YaHei, Arial,sans-serif;
+    font-family: 'Bree Serif', 'Noto Serif SC', 'LXGWBright-Regular', 'PingFang SC', Microsoft YaHei, Arial, sans-serif;
 }
 .notion,
 .notion-text,
