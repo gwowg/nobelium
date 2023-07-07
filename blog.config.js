@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'gwo's life',
+  title: 'gwos life',
   author: 'gwo',
   email: 'uoymtwqg@library.readwise.io',
   link: 'https://gwoo.xyz',
