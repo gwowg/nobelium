@@ -1,9 +1,9 @@
 /* NOTION CSS OVERRIDE */
 
-@import url('https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css');
 
 
 .notion {
+    @import url('https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css');
     @apply text-gray-600 dark:text-gray-300;
     overflow-wrap: break-word;
     font-family: "LXGW WenKai Screen", sans-serif;
