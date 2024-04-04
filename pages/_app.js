@@ -11,19 +11,6 @@ import { LocaleProvider } from '@/lib/locale'
 import { prepareDayjs } from '@/lib/dayjs'
 import { ThemeProvider } from '@/lib/theme'
 import Scripts from '@/components/Scripts'
-import { Analytics } from '@vercel/analytics/react';
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-}
-
-export default MyApp;
-
 
 
 const Ackee = dynamic(() => import('@/components/Ackee'), { ssr: false })
@@ -64,3 +51,16 @@ MyApp.getInitialProps = async ctx => {
     locale: await loadLocale('basic', config.lang)
   }
 }
+
+import { Analytics } from '@vercel/analytics/react';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+
+export default MyApp;
